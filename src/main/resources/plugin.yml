@@ -1,0 +1,21 @@
+name: TyverGUI
+main: com.github.lantice3720.TyverGUI
+prefix: TyverGUI
+version: 1.0.0
+description: 튀버서버를 위한 GUI 플러그인
+author: lanthanide
+api-version: 1.18
+commands:
+  gui:
+    description: 말 그대로, GUI 명령어.
+    usage: /gui create <name>
+    permission: tyvergui.gui
+  menu:
+    description: 메뉴 명령어!
+    usage: /menu
+    permission: tyvergui.menu
+permissions:
+  tyvergui.gui:
+    default: op
+  tyvergui.menu:
+    default: true
